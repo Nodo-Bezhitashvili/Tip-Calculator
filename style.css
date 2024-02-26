@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Redressed", cursive;
+  height: 100vh;
+  background-color: #c5e4e7;
+  font-size: 22px;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  background-color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgb(0 0 0 /15%);
+}
+p {
+  color: #7e7e7e;
+}
+
+.control {
+  margin: 15px 0;
+}
+
+input {
+  border: none;
+  width: 70%;
+  outline: none;
+  text-align: center;
+  border-bottom: 1px solid #26c2ad;
+  color: #7e7e7e;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+select {
+  border: none;
+  outline: none;
+  border: 1px solid #26c2ad;
+  color: #7e7e7e;
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 11px 34px;
+  border-radius: 25px;
+  width: 60%;
+}
+
+.tipPercent {
+  position: relative;
+}
+
+button.calculate {
+  cursor: pointer;
+  color: #fff;
+  background-color: #26c2ad;
+  border: 1px solid transparent;
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 14px 29px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+
+button.calculate:hover {
+  border: 1px solid #26c2ad;
+  background-color: transparent;
+  color: #26c2ad;
+}
+
+.totalTip {
+  margin: 15px;
+  background-color: #00474b;
+  border-radius: 30px;
+  padding: 20px 0 30px;
+}
+
+p.tip {
+  font-size: 38px;
+  color: #26c2ad;
+  margin-top: 10px;
+}
+
+p.bill {
+  font-size: 30px;
+  color: #26c2ad;
+  margin-top: 10px;
+}
+
+.totaltxt {
+  color: #fff;
+}
+
+button.reset {
+  cursor: pointer;
+  color: #fff;
+  background-color: #26c2ad;
+  border: 1px solid transparent;
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 14px 29px;
+  margin: 15px;
+  transition: all 0.3s ease;
+}
+
+button.reset:hover {
+  border: 1px solid #26c2ad;
+  background-color: transparent;
+  color: #fff;
+}
